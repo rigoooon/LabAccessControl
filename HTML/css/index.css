@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    /* background-color: blue; */
+    padding: 40px;
+}
+
+.in {
+    /* background-color: brown; */
+}
+
+.out {
+    /* background-color: azure; */
+}
