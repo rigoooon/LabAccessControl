@@ -10,19 +10,19 @@ const firebaseConfig = {
 db.collection("users").where('STATE', '==', true).get().then((querySnapshot) => {
     querySnapshot.forEach((doc) => {
         userName = doc.data().NAME;
-        const item = document.createElement('li');
+        const item = document.createElement('p');
         item.textContent = userName;
-        const ul = document.querySelector('.in');
-        ul.appendChild(item)
+        const inList = document.querySelector('.in');
+        inList.appendChild(item)
     });
 });
 
 db.collection("users").where('STATE', '==', false).get().then((querySnapshot) => {
     querySnapshot.forEach((doc) => {
         userName = doc.data().NAME;
-        const item = document.createElement('li');
+        const item = document.createElement('p');
         item.textContent = userName;
-        const ul = document.querySelector('.out');
-        ul.appendChild(item)
+        const outList = document.querySelector('.out');
+        outList.appendChild(item)
     });
 });
