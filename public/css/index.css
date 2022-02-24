@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* -------------------------- header ------------------------- */
+
+header {
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 16px;
+    font-size: 24px;
+    border-bottom: 1px solid #eee;
+}
+
+.bi-people-fill {
+    color: #0298db;
+    margin-right: 4px;
+}
+
+
+/* -------------------------- main ------------------------- */
+
+.card, 
+section {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.heading {
+    border-left: 4px solid #0298db;
+    border-bottom: 1px solid #0298db;
+    margin-top: 24px;
+    padding-left: 16px;
+}
+
+.description {
+    margin-top: 24px;
+}
+
+.card-text,
+.description {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 100;
+}
+
+.card {
+    margin-top: 32px;
+}
+
+.card-title {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 16px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.card-body>p {
+    line-height: 2.0;
+}
+
+main {
+    margin-top: 60px;
+    padding-bottom: 32px;
+}
+
+.description {
+    margin-top: 16px;
+}
+
+h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.registration {
+    margin-top: 32px;
+    background-color: #deefff;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
